@@ -1,0 +1,1 @@
+browser doesnt read scss file so we use node-sass as regular compiler to css files
