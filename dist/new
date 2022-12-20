@@ -1,1 +1,19 @@
+portfolio website using mainly css and sass 
+
 browser doesnt read scss file so we use node-sass as regular compiler to css files
+font aswsome.com for fonts
+
+header has 2 parts menu(menu lines) and nav bar (having menu branding and menu-nav )
+
+menu-branding holds the image (not using inline tag)
+portrait class is used to insert image 
+
+menu-nav shows menu options
+inside menu-nav , li tags are used for showing menu-options 
+
+
+FOR HEADINGS H1,H2
+lg-heaading and sm-heading class is used.
+
+
+ containing 3 btn lines 
