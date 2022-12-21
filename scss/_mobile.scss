@@ -1,0 +1,62 @@
+// widescreens
+
+@include mediaXL {
+}
+
+//Desktops & laptops
+@include mediaLg {
+}
+
+// tablets & small laptops
+@include mediaMd {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      // for Md size screen, menu and portrait will float from
+      // left and right instead of up and down
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(
+      -100%,
+      0,
+      0
+    ); //added the values when 'show' class is not present
+    font-size: 24px;
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); // when show class is not present
+
+    .portrait {
+      background: url("../img/portrait_small.jpg");
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+
+// smartp[hones
+@include mediaSm {
+  main#home h1 {
+    margin-top: 10vh;
+  }
+}
