@@ -15,5 +15,9 @@ inside menu-nav , li tags are used for showing menu-options
 FOR HEADINGS H1,H2
 lg-heaading and sm-heading class is used.
 
+sm-heading = (main.scss file) lighten fn is used to lighten the given
+             color as parameter and 2nd parameter is amount to lighten 
+             this whole fn is wrapped in (rgba fn) to fade it to bg.
+              
 
  containing 3 btn lines 
